@@ -60,17 +60,4 @@ print ("Popped Element is :",Popped_element.value)
 print("Linked List is :")
 my_linked_list.print_list()
 
-Popped_element = my_linked_list.pop()
-print ("\nPopped Element is :",Popped_element.value)
-print("Linked List is :")
-my_linked_list.print_list()
 
-Popped_element = my_linked_list.pop()
-print ("\nPopped Element is :",Popped_element.value)
-print("Linked List is :")
-my_linked_list.print_list()
-
-Popped_element = my_linked_list.pop()
-print ("\nPopped Element is :",Popped_element.value)
-print("Linked List is :")
-my_linked_list.print_list()
