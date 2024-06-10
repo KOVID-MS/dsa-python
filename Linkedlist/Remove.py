@@ -19,21 +19,6 @@ class Linkedlist:
             self.tail.next = new_node
             self.tail = new_node
         self.length +=1
-
-    def get(self,index):
-        if index < 0 or index >= self.length:
-            return None
-        else:
-            temp = self.head
-            for _ in range(index):
-                temp = temp.next
-            return temp
-        
-    def set(self,index,value):
-        node = self.get(index)
-        if (node):
-            node.value = value
-            return True
         
     def pop(self):
         if self.length == 0:
