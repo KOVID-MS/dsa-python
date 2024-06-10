@@ -43,6 +43,3 @@ my_linked_list.set(1,4)
 
 print(my_linked_list.get(1).value)
 
-
-        
-
