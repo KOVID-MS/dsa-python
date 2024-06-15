@@ -45,19 +45,5 @@ class Linkedlist:
             self.tail = None
         return temp
 
-print("Before Popping \n")
-my_linked_list = Linkedlist(1)
-my_linked_list.append(2)
-my_linked_list.append(3)
-my_linked_list.append(4)
-
-print("Linked List is :")
-my_linked_list.print_list()
-
-print("\nAfter Popping \n")
-Popped_element = my_linked_list.pop()
-print ("Popped Element is :",Popped_element.value)
-print("Linked List is :")
-my_linked_list.print_list()
 
 
