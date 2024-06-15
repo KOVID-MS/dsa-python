@@ -29,12 +29,6 @@ class Linkedlist:
                 temp = temp.next
             return temp
 
-my_linked_list = Linkedlist(0)
-my_linked_list.append(1)
-my_linked_list.append(2)
-my_linked_list.append(3)
-
-print(my_linked_list.get(0).value)
 
 
         
