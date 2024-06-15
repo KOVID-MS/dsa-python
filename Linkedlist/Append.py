@@ -19,7 +19,3 @@ class Linkedlist:
             self.tail.next = new_node
             self.tail = new_node
 
-my_linked_list = Linkedlist(1)
-my_linked_list.append(2)
-
-print(my_linked_list.head.next.value)
