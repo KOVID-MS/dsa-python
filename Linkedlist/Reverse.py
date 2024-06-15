@@ -43,16 +43,5 @@ class Linkedlist:
                 temp = after
                 if(after):
                    after = temp.next
-
-my_linked_list = Linkedlist(1)
-my_linked_list.append(2)
-my_linked_list.append(3)
-my_linked_list.append(4)
-my_linked_list.append(5)
-my_linked_list.print_list() 
-
-my_linked_list.reverse()
-print("\n")
-my_linked_list.print_list() 
-
+    
            
