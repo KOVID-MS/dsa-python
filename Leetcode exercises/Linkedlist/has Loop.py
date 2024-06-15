@@ -31,22 +31,4 @@ class LinkedList:
                 return True
         else:
             return False
-    
-    
-    
-my_linked_list_1 = LinkedList(1)
-my_linked_list_1.append(2)
-my_linked_list_1.append(3)
-my_linked_list_1.append(4)
-my_linked_list_1.tail.next = my_linked_list_1.head
-print(my_linked_list_1.has_loop() ) 
-
-
-
-
-my_linked_list_2 = LinkedList(1)
-my_linked_list_2.append(2)
-my_linked_list_2.append(3)
-my_linked_list_2.append(4)
-print(my_linked_list_2.has_loop() )
 
