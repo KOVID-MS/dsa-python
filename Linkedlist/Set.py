@@ -35,11 +35,4 @@ class Linkedlist:
             node.value = value
             return True
 
-my_linked_list = Linkedlist(0)
-my_linked_list.append(1)
-my_linked_list.append(2)
-my_linked_list.append(3)
-my_linked_list.set(1,4)
-
-print(my_linked_list.get(1).value)
 
