@@ -10,25 +10,6 @@ class LinkedList:
         self.tail = new_node
         self.length = 1
 
-    def print_list(self):
-        if self.length == 0:
-            print("List is empty")
-        else:
-            temp = self.head
-            while temp != None:
-                print(temp.value)
-                temp = temp.next
-            
-    def append(self,value):
-        new_Node = Node(value)
-        if self.length == 0:
-            self.head = new_Node
-            self.tail = new_Node
-        else:    
-            self.tail.next = new_Node
-            self.tail = self.tail.next
-        self.length += 1
-
     def popfirst(self):
         if self.length == 0:
             print("Cannot Pop as list is empty")
