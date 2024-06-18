@@ -45,35 +45,5 @@ class DoublyLinkedList:
                 else:
                     return False
             return True
-        
 
-my_dll_1 = DoublyLinkedList(1)
-my_dll_1.append(2)
-my_dll_1.append(3)
-my_dll_1.append(2)
-my_dll_1.append(1)
-
-print('my_dll_1 is_palindrome:')
-print( my_dll_1.is_palindrome() )
-
-
-my_dll_2 = DoublyLinkedList(1)
-my_dll_2.append(2)
-my_dll_2.append(3)
-
-print('\nmy_dll_2 is_palindrome:')
-print( my_dll_2.is_palindrome() )
-
-
-
-"""
-    EXPECTED OUTPUT:
-    ----------------
-    my_dll_1 is_palindrome:
-    True
-
-    my_dll_2 is_palindrome:
-    False
-
-"""
 
