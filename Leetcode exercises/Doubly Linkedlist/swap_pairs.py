@@ -11,13 +11,7 @@ class DoublyLinkedList:
         self.head = new_node
         self.length = 1
 
-    def print_list(self):
-        output = []
-        current_node = self.head
-        while current_node is not None:
-            output.append(str(current_node.value))
-            current_node = current_node.next
-        print(" <-> ".join(output))
+
         
 
     def swap_pairs(self):
