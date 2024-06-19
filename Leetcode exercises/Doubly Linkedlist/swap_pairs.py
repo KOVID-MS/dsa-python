@@ -19,18 +19,6 @@ class DoublyLinkedList:
             current_node = current_node.next
         print(" <-> ".join(output))
         
-    def append(self, value):
-        new_node = Node(value)
-        if self.head is None:
-            self.head = new_node
-        else:
-            temp = self.head
-            while temp.next is not None:
-                temp = temp.next
-            temp.next = new_node
-            new_node.prev = temp
-        self.length += 1
-        return True
 
     def swap_pairs(self):
         if self.head == None:
