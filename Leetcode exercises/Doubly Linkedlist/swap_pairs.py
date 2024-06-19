@@ -55,18 +55,4 @@ class DoublyLinkedList:
         return self.head
 
 
-my_dll = DoublyLinkedList(1)
-my_dll.append(2)
-my_dll.append(3)
-my_dll.append(4)
-
-print('my_dll before swap_pairs:')
-my_dll.print_list()
-
-my_dll.swap_pairs() 
-
-
-print('my_dll after swap_pairs:')
-my_dll.print_list()
-
 
