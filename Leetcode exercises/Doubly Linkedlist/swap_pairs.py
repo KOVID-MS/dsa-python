@@ -10,10 +10,7 @@ class DoublyLinkedList:
         new_node = Node(value)
         self.head = new_node
         self.length = 1
-
-
         
-
     def swap_pairs(self):
         if self.head == None:
             return None
