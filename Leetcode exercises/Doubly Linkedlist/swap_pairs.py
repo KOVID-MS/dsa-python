@@ -70,13 +70,3 @@ print('my_dll after swap_pairs:')
 my_dll.print_list()
 
 
-"""
-    EXPECTED OUTPUT:
-    ----------------
-    my_dll before swap_pairs:
-    1 <-> 2 <-> 3 <-> 4
-    ------------------------
-    my_dll after swap_pairs:
-    2 <-> 1 <-> 4 <-> 3
-
-"""
