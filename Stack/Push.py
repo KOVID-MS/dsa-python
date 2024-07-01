@@ -25,9 +25,6 @@ class Stack:
             self.top = new_node
         self.height += 1
             
-
-
-
 my_stack = Stack(2)
 
 print('Stack before push(1):')
