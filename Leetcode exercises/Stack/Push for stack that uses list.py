@@ -9,10 +9,6 @@ class Stack:
 
     def push(self,value):
         self.stack_list.append(value)
-        
-    
-
-
 
 my_stack = Stack()
 my_stack.push(1)
