@@ -40,26 +40,10 @@ class Queue:
         self.length -= 1
         return temp
         
-
-
-
 my_queue = Queue(1)
 my_queue.enqueue(2)
 
-# (2) Items - Returns 2 Node
 print(my_queue.dequeue().value)
-# (1) Item -  Returns 1 Node
 print(my_queue.dequeue().value)
-# (0) Items - Returns None
 print(my_queue.dequeue())
 
-
-
-"""
-    EXPECTED OUTPUT:
-    ----------------
-    1
-    2
-    None
-
-"""
