@@ -39,9 +39,16 @@ class BinarySearchTree:
                 temp = temp.left
             else:
                 return True
-                
+        return False
         
+bst = BinarySearchTree()
+bst.insert(10)
+bst.insert(11)
+bst.insert(13)
+bst.insert(14)
+bst.insert(15)
 
-
-
-
+print(bst.contains(10))
+print(bst.contains(15))
+print(bst.contains(13))
+print(bst.contains(9))
