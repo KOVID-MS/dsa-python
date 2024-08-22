@@ -1,33 +1,13 @@
-def hashing(key):
-    index = 0;
-    for i in key:
-        index = (index + ord(i)) % 7
-    return index
-    
-def group_anagrams(strings):
-    result = []
-    Hashmap = [None]*7
-    for string in strings:
-        index = hashing(string)
-        if Hashmap[index] == None:
-            Hashmap[index] = []
-        Hashmap[index].append(string)
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        dic = {}
+
+        for s in strs:
+            count = [0]*26
+            for ch in s:
+                count[ord(ch) - ord("a")] += 1
+            if tuple(count) not in  dic.keys():
+                dic[tuple(count)] = []
+            dic[tuple(count)].append(s)
         
-    for i in range(len(Hashmap)):
-        if Hashmap[i] is not None:
-            result.append(Hashmap[i])
-    
-    return result
-
-
-
-
-print("1st set:")
-print( group_anagrams(["eat", "tea", "tan", "ate", "nat", "bat"]) )
-
-print("\n2nd set:")
-print( group_anagrams(["abc", "cba", "bac", "foo", "bar"]) )
-
-print("\n3rd set:")
-print( group_anagrams(["listen", "silent", "triangle", "integral", "garden", "ranged"]) )
-
+        return dic.values()
