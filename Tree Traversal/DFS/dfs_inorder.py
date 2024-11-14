@@ -85,14 +85,6 @@ my_tree.insert(82)
 print(my_tree.dfs_in_order())
 
 
-
-"""
-    EXPECTED OUTPUT:
-    ----------------
-    [18, 21, 27, 47, 52, 76, 82]
-
- """
-
                 
 
 
